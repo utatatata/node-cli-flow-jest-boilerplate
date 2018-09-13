@@ -3,6 +3,11 @@
   "description": "A node command line interface application boilerplace with Flow & Jest",
   "version": "0.1.0",
   "author": "utakuma <utatatata.kuma@gmail.com>",
+  "bin": "bin/cli",
+  "files": [
+    "lib",
+    "bin"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.1",
