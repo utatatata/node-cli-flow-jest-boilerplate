@@ -8,7 +8,9 @@
     "@babel/core": "^7.0.1",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-flow": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^9.0.0",
+    "babel-jest": "^23.6.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "eslint": "^5.5.0",
     "eslint-config-prettier": "^3.0.1",
@@ -17,6 +19,7 @@
     "fixpack": "^2.3.1",
     "flow-bin": "^0.80.0",
     "husky": "^0.14.3",
+    "jest": "^23.6.0",
     "lint-staged": "^7.2.2",
     "prettier": "^1.14.2"
   },
@@ -32,6 +35,8 @@
   "license": "MIT",
   "repository": "utatatata/node-cli-flow-jest-boilerplate",
   "scripts": {
-    "build": "babel src -d lib -s"
+    "build": "babel src -d lib -s",
+    "coverage": "jest --coverage",
+    "test": "jest"
   }
 }
