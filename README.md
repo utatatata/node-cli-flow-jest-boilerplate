@@ -39,6 +39,78 @@ yarn coverage
 
 Open `coverage/lcov-report/index.html` in a browser.
 
+### Release
+
+```
+yarn release
+```
+
+After that, you can run `npm publish`.
+
+
+## Example
+
+Learn more at [Commander.js API Documentation](http://tj.github.io/commander.js/).
+
+### Help
+
+Run `yarn build` and `./bin/cli -h`.
+
+```
+Usage: cli [options] [command]
+
+Options:
+
+  -v, --version    output the version number
+  -h, --help       output usage information
+
+Commands:
+
+  greet [options]  display greeting
+```
+
+#### Help for a sub command
+
+Run `./bin/cli greet -h`.
+
+```
+Usage: greet [options]
+
+display greeting
+
+Options:
+
+  -n, --your-name <your-name>  the name that I greet
+  -e, --good-evening           a greeting in the evening
+  -h, --help                   output usage information
+```
+
+### Greet command
+
+- `./bin/cli greet`
+
+```
+Hello!
+```
+
+- `./bin/cli greet --your-name 'Node CLI'`
+
+```
+Hello, Node CLI!
+```
+
+- `./bin/cli greet --good-evening`
+
+```
+Good Evening!
+```
+
+- `./bin/cli greet --good-evening --your-name 'Node CLI'`
+
+```
+Good Evening, Node CLI!
+```
+
 
 ## How it works
 
@@ -82,26 +154,10 @@ See `jest.config.js`.
 
 ### VSCode
 
-Install the extensions below.
+Install the extensions below, like `ext install <package-name>`.
 
-- prettier-vscode
-- eslint
+- flowtype.flow-for-vscode
+- dbaeumer.vscode-eslint
+- esbenp.prettier-vscode`
 
-Adding these settings for VSCode.
-
-```
-{
-    "[javascript]": {
-        "editor.formatOnSave": true
-    },
-    "[json]": {
-        "editor.formatOnSave": true
-    }
-}
-```
-
-If Prettier has been installed either local or global and `editor.formatOnSave` is true, Prettier is run automatically on save and formats your source code.
-
-`[javascript]` means those settings is valid only when the editing file type is JavaScript.
-
-
+See Workspace Settings in VSCode or `.vscode/setting.json`.
