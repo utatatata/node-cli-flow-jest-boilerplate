@@ -4,6 +4,9 @@
   "version": "0.1.0",
   "author": "utakuma <utatatata.kuma@gmail.com>",
   "bin": "bin/cli",
+  "dependencies": {
+    "commander": "^2.18.0"
+  },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.1",
