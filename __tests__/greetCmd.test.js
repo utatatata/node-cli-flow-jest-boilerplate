@@ -1,4 +1,4 @@
-/* @flow */
+/* @noflow */
 import type { GreetOption } from '../src/greetCmd'
 import greetCmd from '../src/greetCmd'
 

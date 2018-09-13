@@ -1,0 +1,16 @@
+{
+  "editor.tabSize": 2,
+  "editor.useTabStops": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.formatOnSave": false,
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.packageManager": "yarn",
+  "flow.useNPMPackagedFlow": true,
+  "javascript.format.enable": false,
+  "javascript.validate.enable": false,
+  "typescript.format.enable": false,
+  "typescript.validate.enable": false
+}

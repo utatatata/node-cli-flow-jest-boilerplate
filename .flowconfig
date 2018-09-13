@@ -1,6 +1,5 @@
 [ignore]
 <PROJECT_ROOT>[^/]+\.js
-<PROJECT_ROOT>/__tests__/.*
 <PROJECT_ROOT>/node_modules/.*
 <PROJECT_ROOT>/bin/.*
 <PROJECT_ROOT>/lib/.*
