@@ -1,0 +1,14 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "v10.10.0"
+        }
+      }
+    ],
+    "@babel/flow"
+  ],
+  "plugins": ["transform-class-properties"]
+}

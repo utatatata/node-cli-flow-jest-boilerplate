@@ -3,6 +3,14 @@
   "description": "A node command line interface application boilerplace with Flow & Jest",
   "version": "0.1.0",
   "author": "utakuma <utatatata.kuma@gmail.com>",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "flow-bin": "^0.80.0"
+  },
   "engines": {
     "node": ">=10.10.0"
   },
@@ -13,5 +21,8 @@
     "node"
   ],
   "license": "MIT",
-  "repository": "utatatata/node-cli-flow-jest-boilerplate"
+  "repository": "utatatata/node-cli-flow-jest-boilerplate",
+  "scripts": {
+    "build": "babel src -d lib -s"
+  }
 }
