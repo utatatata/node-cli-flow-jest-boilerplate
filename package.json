@@ -1,0 +1,17 @@
+{
+  "name": "node-cli-flow-jest-boilerplate",
+  "description": "A node command line interface application boilerplace with Flow & Jest",
+  "version": "0.1.0",
+  "author": "utakuma <utatatata.kuma@gmail.com>",
+  "engines": {
+    "node": ">=10.10.0"
+  },
+  "keywords": [
+    "cli",
+    "flow",
+    "jest",
+    "node"
+  ],
+  "license": "MIT",
+  "repository": "utatatata/node-cli-flow-jest-boilerplate"
+}
