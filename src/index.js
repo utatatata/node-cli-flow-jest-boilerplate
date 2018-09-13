@@ -1,3 +1,4 @@
+import path from 'path'
 import program from 'commander'
 
 /* @noflow */
@@ -6,7 +7,7 @@ import getPkgJson from './getPkgJson'
 import greetCmd from './greetCmd'
 
 const init = async () => {
-  const pkgJson: PkgJson = await getPkgJson(process.cwd())
+  const pkgJson: PkgJson = await getPkgJson(path.join(__dirname, '..'))
   program.version(`v${pkgJson.version}`, '-v, --version')
 
   program
