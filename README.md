@@ -128,7 +128,7 @@ lint-staged gives the git staging files to any command.
 
 You can format and lint the source codes with them before they are commited.
 
-See `.huskyrc.json` and `.lintstagedrc.json`.
+See `.huskyrc.json` and `.lintagedrc.json`.
 
 ### Prettier & ESLint
 
@@ -144,7 +144,7 @@ eslint-plugin-prettier runs Prettier on ESLint.
 
 See `.prettierrc` and `.eslintrc.json`.
 
-### Jest(ts-jest)
+### Jest
 
 Jest is a test runner.
 
